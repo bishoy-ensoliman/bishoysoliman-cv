@@ -5,13 +5,13 @@
   <div id="navBar" class="w3-top">
     <div class="w3-bar primary-color w3-center">
       <a class="
-              w3-bar-item
-              w3-button
-              w3-padding-large
-              w3-hide-medium
-              w3-hide-large
-              w3-right
-            " href="javascript:void(0)" @click="toggleNavShow" title="Toggle Navigation Menu"><i
+                  w3-bar-item
+                  w3-button
+                  w3-padding-large
+                  w3-hide-medium
+                  w3-hide-large
+                  w3-right
+                " href="javascript:void(0)" @click="toggleNavShow" title="Toggle Navigation Menu"><i
           class="fa fa-bars"></i></a>
       <a href="/" class="w3-bar-item w3-button w3-padding-large">BS</a>
       <a href="mailto:contact@bishoysoliman.com" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
@@ -23,7 +23,7 @@
           Projects <i class="fa fa-caret-down"></i>
         </button>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="http://smartcloudsws.com" target="_blank" class="w3-bar-item w3-button">SmartCloudsws</a>
+          <a href="https://smartcloudsws.com" target="_blank" class="w3-bar-item w3-button">SmartCloudsws</a>
         </div>
       </div>
       <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
@@ -31,18 +31,18 @@
     </div>
   </div>
   <div id="navDemo" class="
-          w3-bar-block
-          primary-color
-          w3-center
-          w3-hide
-          w3-hide-large
-          w3-hide-medium
-          w3-top
-        " style="margin-top: 46px">
+              w3-bar-block
+              primary-color
+              w3-center
+              w3-hide
+              w3-hide-large
+              w3-hide-medium
+              w3-top
+            " style="margin-top: 46px">
     <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
     <a href="mailto:contact@bishoysoliman.com" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
     <a href="/files/Bishoy_Soliman.pdf" class="w3-bar-item w3-button w3-padding-large" download>Download</a>
-    <a href="http://smartcloudsws.com" target="_blank" class="w3-bar-item w3-button w3-padding-large">SmartCloudsws</a>
+    <a href="https://smartcloudsws.com" target="_blank" class="w3-bar-item w3-button w3-padding-large">SmartCloudsws</a>
   </div>
 
   <div class="w3-content">
@@ -91,9 +91,9 @@
       <div class="box w3-container w3-white w3-margin-bottom">
         <h1 class="w3-text-grey w3-padding-16 title">
           <i class="
-                  fa fa-suitcase fa-fw
-                  w3-margin-right w3-xxlarge text-primary-color
-                "></i>Work Experience
+                      fa fa-suitcase fa-fw
+                      w3-margin-right w3-xxlarge text-primary-color
+                    "></i>Work Experience
         </h1>
         <div class="w3-container">
           <h5 class="w3-opacity">
@@ -244,9 +244,9 @@
       <div class="box w3-container w3-white">
         <h1 class="w3-text-grey w3-padding-16 title">
           <i class="
-                  fa fa-certificate fa-fw
-                  w3-margin-right w3-xxlarge text-primary-color
-                "></i>Education
+                      fa fa-certificate fa-fw
+                      w3-margin-right w3-xxlarge text-primary-color
+                    "></i>Education
         </h1>
         <div class="w3-container">
           <h5 class="w3-opacity">
