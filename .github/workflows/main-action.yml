@@ -1,4 +1,4 @@
-name: ProductionDeploy
+name: Production
 
 on:
   push:
@@ -11,13 +11,14 @@ jobs:
     name: Build and Deploy
 
     steps:
-      - uses: actions/checkout@master
-
-      - name: Bucket actions
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      
+      - name: Build
+        uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm i
+          cache: 'npm'
+      - run: npm ci
       - run: npm run build
       
       - name: Publish
