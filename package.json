@@ -5,19 +5,19 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "core-js": "^3.6.5",
     "vue": "^3.2.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
     "@vue/cli-plugin-babel": "^5.0.3",
     "@vue/cli-plugin-eslint": "^5.0.3",
     "@vue/cli-service": "^5.0.3",
     "@vue/compiler-sfc": "^3.0.0",
-    "@babel/eslint-parser": "^7.16.3",
     "eslint": "^8.11.0",
     "eslint-plugin-vue": "^7.0.0-0",
     "serve-static": "^1.14.1"
