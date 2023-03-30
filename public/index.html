@@ -46,6 +46,12 @@
   <!-- Matomo -->
   <script>
     var _paq = window._paq = window._paq || [];
+    // require user tracking consent before processing data
+    _paq.push(['requireConsent']);
+
+    // OR require user cookie consent before storing and using any cookies
+    _paq.push(['requireCookieConsent']);
+
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
@@ -62,8 +68,6 @@
 
 <body class="w3-light-grey">
   <noscript>
-    <img
-      src='https://countly.smartcloudsws.com/pixel.png?app_key=2ebc8c56dbb419a0ba93483db55ec132ee167468&begin_session=1' />
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
   </noscript>
