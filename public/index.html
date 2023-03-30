@@ -22,7 +22,7 @@
     Countly.app_key = '2ebc8c56dbb419a0ba93483db55ec132ee167468';
     Countly.url = 'https://countly.smartcloudsws.com';
     Countly.require_consent = true;
-    Countly.use_session_cookie = true;
+    //Countly.use_session_cookie = true;
 
     Countly.q.push(['track_sessions']);
     Countly.q.push(['track_pageview']);
@@ -68,6 +68,9 @@
 
 <body class="w3-light-grey">
   <noscript>
+    <!-- <img
+      src='https://countly.smartcloudsws.com/pixel.png?app_key=2ebc8c56dbb419a0ba93483db55ec132ee167468&begin_session=1' />
+     -->
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
   </noscript>
