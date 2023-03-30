@@ -13,6 +13,36 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script type='text/javascript'>
+    //some default pre init
+    var Countly = Countly || {};
+    Countly.q = Countly.q || [];
+
+    //provide countly initialization parameters
+    Countly.app_key = '2ebc8c56dbb419a0ba93483db55ec132ee167468';
+    Countly.url = 'https://countly.smartcloudsws.com';
+    Countly.require_consent = true;
+    Countly.use_session_cookie = true;
+
+    Countly.q.push(['track_sessions']);
+    Countly.q.push(['track_pageview']);
+    Countly.q.push(['track_clicks']);
+    Countly.q.push(['track_scrolls']);
+    Countly.q.push(['track_errors']);
+    Countly.q.push(['track_links']);
+    Countly.q.push(['track_forms']);
+    Countly.q.push(['collect_from_forms']);
+
+    //load countly script asynchronously
+    (function () {
+      var cly = document.createElement('script'); cly.type = 'text/javascript';
+      cly.async = true;
+      //enter url of script here
+      cly.src = 'https://countly.smartcloudsws.com/sdk/web/countly.min.js';
+      cly.onload = function () { Countly.init() };
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+    })();
+  </script>
   <!-- Matomo -->
   <script>
     var _paq = window._paq = window._paq || [];
@@ -32,6 +62,8 @@
 
 <body class="w3-light-grey">
   <noscript>
+    <img
+      src='https://countly.smartcloudsws.com/pixel.png?app_key=2ebc8c56dbb419a0ba93483db55ec132ee167468&begin_session=1' />
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
   </noscript>
