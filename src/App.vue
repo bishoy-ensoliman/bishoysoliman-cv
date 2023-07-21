@@ -262,7 +262,6 @@
           <p>BSc. Aerospace</p>
           <br />
         </div>
-      </div>
         <div class="w3-container">
           <h5 class="w3-opacity">
             <b>Faculty of Engineering Alexandria University</b>
