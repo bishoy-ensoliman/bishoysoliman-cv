@@ -58,7 +58,7 @@
               </h1>
               <p>
                 <i class="fa fa-briefcase fa-fw w3-margin-right w3-large text-primary-color"></i>Computer & Systems
-                Engineer
+                Engineer & Aerospace Engineering Student
               </p>
               <p>
                 <i class="fa fa-home fa-fw w3-margin-right w3-large text-primary-color"></i>Munich, Germany
@@ -97,7 +97,7 @@
         </h1>
         <div class="w3-container">
           <h5 class="w3-opacity">
-            <b>Backend Software Engineer @ Avi Medical</b>
+            <b>Software Engineer @ Avi Medical</b>
           </h5>
           <h6 class="text-primary-color">
             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2022 -
@@ -106,12 +106,16 @@
           </h6>
           <ul>
             <li>
-              Backend Software Engineer developing, testing, deploying software services.
+              Full stack Software Engineer developing, testing, deploying software services.
             </li>
           </ul>
           <div class="technologies">
             <div class="w3-light-grey">Java</div>
             <div class="w3-light-grey">Quarkus</div>
+            <div class="w3-light-grey">Vuejs</div>
+            <div class="w3-light-grey">React</div>
+            <div class="w3-light-grey">JS/TS</div>
+            <div class="w3-light-grey">Terraform</div>
           </div>
           <hr />
         </div>
@@ -250,6 +254,17 @@
         </h1>
         <div class="w3-container">
           <h5 class="w3-opacity">
+            <b>Technische Universität München (TUM)</b>
+          </h5>
+          <h6 class="text-primary-color">
+            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2023 – Present
+          </h6>
+          <p>BSc. Aerospace</p>
+          <br />
+        </div>
+      </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity">
             <b>Faculty of Engineering Alexandria University</b>
           </h5>
           <h6 class="text-primary-color">
@@ -337,7 +352,7 @@
                 </div>
               </div>
               <div>
-                <p>Javascript/EcmaScript and TypeScript</p>
+                <p>JS/ES/TS</p>
                 <div class="w3-light-grey w3-round-xlarge">
                   <div class="w3-round-xlarge primary-color" style="height: 24px; width: 90%"></div>
                 </div>
